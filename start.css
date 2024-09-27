@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(231, 231, 231);
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    border: 3px solid #035803;
+    background-color: #035803;
+    list-style-type: none;
+    padding: 0;
+    width: fit-content;    
+}
+
+ul li {
+    border: 1px solid #e7e7e7;
+    font-size: 2em;
+    min-width: 20rem;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+ul li a {
+    text-decoration: none;
+    color: #e7e7e7;
+    text-align: center;
+    padding: 1rem 4rem;
+}
+
+ul li a:hover {
+    background-color: #e7e7e7aa;
+    color: #035803;
+}
