@@ -5,7 +5,7 @@ body {
     align-items: center;
 }
 
-#trafficLight {
+.lightBox div {
     width: 100px;
     height: 100px;
     border-radius: 50%;
@@ -13,7 +13,9 @@ body {
 }
 
 .lightBox {
-    border: 2px solid black;
+    border: 3px solid #585454;
+    background-color: #585454;
+    padding: 5px;
     width: fit-content;
     height: fit-content;
 }
