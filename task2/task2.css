@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(231, 231, 231);
+    font-size: 1.5rem;
+}
+
+code {
+    background-color: whitesmoke;
+    border: 1px solid #035803;
+    padding: 1rem 0.3rem;
+}
+
+p {
+    text-decoration: underline;
+    color: #035803;
+    font-size: larger;
+    width: fit-content;
+    padding: .7rem;
+}
+
+p:hover {
+    background-color: #035803;
+    color: rgb(231, 231, 231);
+}

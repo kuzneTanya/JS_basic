@@ -1,0 +1,18 @@
+body {
+    background-color: #e7e7e7;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    border: 2px solid #035803;
+    padding: 1rem;
+    font-size: 2rem;
+    color: rgb(41, 37, 37);
+    background-color: whitesmoke;
+}
+
+a:hover {
+    background-color: #035803aa;
+    color: #e7e7e7;
+}
